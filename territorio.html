@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>CSS Template</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* Style the header */
+
+header {
+
+  background-color: RED;
+
+  padding: 30px;
+
+  text-align: center;
+
+  font-size: 35px;
+
+  color: GOLD;
+
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+
+nav {
+
+  float: left;
+
+  width: 30%;
+
+  height: 300px; /* only for demonstration, should be removed */
+
+  background: #ccc;
+
+  padding: 20px;
+
+}
+
+
+/* Style the list inside the menu */
+
+nav ul {
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+
+
+article {
+
+  float: left;
+
+  padding: 20px;
+
+  width: 70%;
+
+  background-color: ;
+
+  height: 300px; /* only for demonstration, should be removed */
+
+}
+
+
+/* Clear floats after the columns */
+
+section::after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+
+/* Style the footer */
+
+footer {
+
+  background-color: GREEN;
+
+  padding: 10px;
+
+  text-align: center;
+
+  color: BLACK;
+
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+@media (max-width: 600px) {
+
+  nav, article {
+
+    width: 100%;
+
+    height: auto;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<header>
+
+  <h2>IL TERRITORIO</h2>
+
+</header>
+
+
+<section>
+
+  <nav>
+
+    <ul>
+
+      <li><a href="home.html">Home></a></li>
+      <li><a href="storia.html">Storia></a></li>
+
+      <li><a href="clima.html">Clima></a></li>
+
+      <li><a href="monumenti.html">Monumenti></a></li>
+
+    </ul>
+
+  </nav>
+
+  
+
+  <article>
+
+    
+
+    <p style="color:BLACK;">La città è situata sul fiume Tago. Le due sponde del fiume sono collegate da due grandi ponti: il ponte 25 aprile, inaugurato nel 1966, e il ponte Vasco da Gama lungo 17,2 km, inaugurato il 29 Marzo 1998 in occasione della esposizione universale Expo '98. In quell'occasione si sono celebrati i 500 anni della scoperta del passaggio marittimo per l'India da parte del navigatore Vasco da Gama.
+
+
+
+
+
+    </p>
+</p>
+
+    
+<img style="height: 100px;width: auto;" src="immagini/territorio.png" alt="territorio">
+  </article>
+
+</section>
+
+
+<footer>
+
+  <p><b>PORTOGALLO</p>
+
+</footer>
+
+
+</body>
+
+</html>
+
+
+

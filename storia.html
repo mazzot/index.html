@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>CSS Template</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* Style the header */
+
+header {
+
+  background-color: RED;
+
+  padding: 30px;
+
+  text-align: center;
+
+  font-size: 35px;
+
+  color: GOLD;
+
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+
+nav {
+
+  float: left;
+
+  width: 30%;
+
+  height: 300px; /* only for demonstration, should be removed */
+
+  background: #ccc;
+
+  padding: 20px;
+
+}
+
+
+/* Style the list inside the menu */
+
+nav ul {
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+
+
+article {
+
+  float: left;
+
+  padding: 20px;
+
+  width: 70%;
+
+  background-color: ;
+
+  height: 300px; /* only for demonstration, should be removed */
+
+}
+
+
+/* Clear floats after the columns */
+
+section::after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+
+/* Style the footer */
+
+footer {
+
+  background-color: GREEN;
+
+  padding: 10px;
+
+  text-align: center;
+
+  color: BLACK;
+
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+@media (max-width: 600px) {
+
+  nav, article {
+
+    width: 100%;
+
+    height: auto;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<header>
+
+  <h2>LA STORIA</h2>
+
+</header>
+
+
+<section>
+
+  <nav>
+
+    <ul>
+      <li><a href="home.html">Home></a></li>
+      <li><a href="territorio.html">Territorio></a></li>
+
+      <li><a href="clima.html">Clima></a></li>
+
+      <li><a href="monumenti.html">Monumenti></a></li>
+
+
+    </ul>
+
+  </nav>
+
+  
+
+  <article>
+
+    
+
+    <p style="color:BLACK;">Lisbona ha probabilmente origini fenicie ed è stata ai tempi dei Romani la Felicitas Julia in onore di Giulio Cesare. In epoca romana l'attuale capitale del Portogallo ha goduto di grandi benefici e fu dotata di terme, templi, mura difensive e di un teatro; assunse un ruolo primario dal punto di vista commerciale essendo situata in posizione favorevole. Fu altresì importante centro per la diffusione del Cristianesimo.
+
+
+
+    </p>
+</p>
+
+    
+<img src="immagini/storia.jpeg" alt="storia">
+  </article>
+
+</section>
+
+
+<footer>
+
+  <p><b>PORTOGALLO</p>
+
+</footer>
+
+
+</body>
+
+</html>
+
+
+
+
